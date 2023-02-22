@@ -1,6 +1,6 @@
 Tasks
 0. Basic dictionary
-mandatory
+
 Create a class BasicCache that inherits from BaseCaching and is a caching system:
 
 You must use self.cache_data - dictionary from the parent class BaseCaching
@@ -45,7 +45,7 @@ Must return the value in self.cache_data linked to key.
 If key is None or if the key doesn’t exist in self.cache_data, return None.
 
 3. LRU Caching
-mandatory
+
 Create a class LRUCache that inherits from BaseCaching and is a caching system:
 
 You must use self.cache_data - dictionary from the parent class BaseCaching
@@ -62,7 +62,7 @@ If key is None or if the key doesn’t exist in self.cache_data, return None.
 
 
 4. MRU Caching
-mandatory
+
 Create a class MRUCache that inherits from BaseCaching and is a caching system:
 
 You must use self.cache_data - dictionary from the parent class BaseCaching
@@ -78,7 +78,7 @@ Must return the value in self.cache_data linked to key.
 If key is None or if the key doesn’t exist in self.cache_data, return None.
 
 5. LFU Caching
-#advanced
+
 Create a class LFUCache that inherits from BaseCaching and is a caching system:
 
 You must use self.cache_data - dictionary from the parent class BaseCaching
